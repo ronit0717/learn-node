@@ -1,8 +1,8 @@
-module.exports.user = {
+export const user = {
     firstName : 'Ronit',
     lastName : 'Chattopadhyay'
 }
 
-module.exports.addLog = () => {
+export function addLog() {
     return true;
 }
